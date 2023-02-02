@@ -1,0 +1,54 @@
+.arrivals {
+  padding: 40px 43px;
+}
+.arrivals-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrivals-title {
+  font-size: 24px;
+  line-height: 30px;
+}
+.arrivals-controls-button {
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.arrivals-controls-button img {
+  width: 18px;
+}
+.arrivals-cards {
+  display: flex;
+  align-items: flex-start;
+  padding: 60px 20px;
+}
+.arrivals-card:nth-child(2) {
+  flex-shrink: 1;
+}
+.arrivals-card:nth-child(1) h6 {
+  margin-bottom: 22px;
+}
+.arrivals-card {
+  display: flex;
+  align-items: flex-end;
+}
+.arrivals-card-container img {
+  width: 100%;
+}
+.arrivals-card-title {
+  font-size: 16px;
+  line-height: 22px;
+}
+.arrivals-card-price {
+  font-size: 14px;
+  line-height: 18px;
+}
+.arrivals-card-button {
+  flex-basis: 100px;
+  flex-shrink: 0;
+  font-size: 14px;
+  line-height: 18px;
+  border: none;
+  outline: none;
+}/*# sourceMappingURL=arrivals.css.map */

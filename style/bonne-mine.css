@@ -1,0 +1,36 @@
+.bonne-mine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 1;
+}
+.bonne-mine-container {
+  width: 50%;
+}
+.bonne-mine-content {
+  position: relative;
+  width: 50%;
+}
+.bonne-mine-art {
+  width: 100%;
+}
+.bonne-mine-tshirt {
+  width: 100%;
+}
+.bonne-mine-title {
+  position: absolute;
+  top: 47px;
+  left: 50px;
+  font-size: 44px;
+  line-height: 60px;
+}
+.bonne-mine-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+  line-height: 18px;
+  border: none;
+  outline: none;
+  padding: 64px 50px;
+}/*# sourceMappingURL=bonne-mine.css.map */

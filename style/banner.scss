@@ -1,0 +1,24 @@
+.banner {
+    display: flex;
+    border: 2px dashed grey;
+    border-top: none;
+
+    &-container {
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+    }
+    
+    &-subtitle {
+        position: absolute;
+        bottom: 34px;
+        left: 33px;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,16 @@
+.books {
+    position: relative;
+    margin-bottom: 90px;
+
+    img {
+        width: 50%;
+    }
+
+    &-description {
+        position: absolute;
+        top: 31px;
+        left: 45px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

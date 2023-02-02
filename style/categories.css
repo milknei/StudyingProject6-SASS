@@ -1,0 +1,64 @@
+.categories {
+  margin-bottom: 50px;
+  padding: 40px 43px;
+}
+.categories-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.categories-title {
+  font-size: 24px;
+  line-height: 30px;
+}
+.categories-controls-button {
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.categories-controls-button img {
+  width: 18px;
+}
+.categories-cards {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.categories-card:nth-child(2) {
+  flex-shrink: 1;
+}
+.categories-card:nth-child(1) h6 {
+  margin-bottom: 22px;
+}
+.categories-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.categories-card-container img {
+  width: 100%;
+}
+.categories-card-title {
+  position: absolute;
+  bottom: 6px;
+  left: 20px;
+  font-size: 33px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.categories-footer {
+  text-align: center;
+  padding: 20px 0;
+}
+.categories-footer-indicator {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #C4C4C4;
+  margin-right: 12px;
+}
+.categories-footer-indicator-active {
+  background: #000;
+}/*# sourceMappingURL=categories.css.map */

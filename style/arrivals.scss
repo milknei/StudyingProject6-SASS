@@ -1,0 +1,70 @@
+@import 'mixin';
+
+.arrivals {
+    padding: 40px 43px;
+
+    &-head {
+        @include flex-center($justify: space-between);
+    }
+
+    &-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    &-controls {
+        &-button {
+            padding: 10px;
+            border: none;
+            outline: none;
+
+            img {
+                width: 18px;
+            }
+        }
+    }
+
+    &-cards {
+        display: flex;
+        align-items: flex-start;
+        padding: 60px 20px;
+    }
+
+    &-card:nth-child(2) {
+        flex-shrink: 1;
+    }
+
+    &-card:nth-child(1) h6 {
+        margin-bottom: 22px;
+    }
+
+    &-card {
+        display: flex;
+        align-items: flex-end;
+
+        &-container {
+            img {
+                width: 100%;
+            }
+        }
+
+        &-title {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        &-price {
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        &-button {
+            flex-basis: 100px;
+            flex-shrink: 0;
+            font-size: 14px;
+            line-height: 18px;
+            border: none;
+            outline: none;
+        }
+    }
+}

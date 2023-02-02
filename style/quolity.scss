@@ -1,0 +1,29 @@
+@import 'mixin';
+
+.quolity {
+    @include flex-center($justify: space-between);
+    padding: 116px 64px;
+
+    &-content {
+        width: 825px;
+    }
+
+    &-title {
+        font-size: 64px;
+        line-height: 64px;
+        margin-bottom: 31px;
+    }
+
+    &-description {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    &-button {
+        align-self: flex-start;
+        font-size: 18px;
+        line-height: 22px;
+        border: none;
+        outline: none;
+    }
+}

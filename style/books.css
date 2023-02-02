@@ -1,0 +1,14 @@
+.books {
+  position: relative;
+  margin-bottom: 90px;
+}
+.books img {
+  width: 50%;
+}
+.books-description {
+  position: absolute;
+  top: 31px;
+  left: 45px;
+  font-size: 18px;
+  line-height: 22px;
+}/*# sourceMappingURL=books.css.map */

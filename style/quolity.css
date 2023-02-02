@@ -1,0 +1,25 @@
+.quolity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 116px 64px;
+}
+.quolity-content {
+  width: 825px;
+}
+.quolity-title {
+  font-size: 64px;
+  line-height: 64px;
+  margin-bottom: 31px;
+}
+.quolity-description {
+  font-size: 20px;
+  line-height: 25px;
+}
+.quolity-button {
+  align-self: flex-start;
+  font-size: 18px;
+  line-height: 22px;
+  border: none;
+  outline: none;
+}/*# sourceMappingURL=quolity.css.map */

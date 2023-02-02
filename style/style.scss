@@ -1,0 +1,90 @@
+@import 'mixin';
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url('../fonts/roboto/Roboto-Regular.ttf');
+}
+
+body {
+
+    * {
+        font-family: "Roboto Regular";
+        color: #000000;
+    }
+
+    > * {
+        background: #F1F1F1;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.page-wrapper {
+    width: 1440px;
+    margin: auto;
+}
+
+.sale-bar {
+    background: #D8BF95;
+    padding: 11px 0;
+
+    &-text {
+        text-align: center;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@import 'header';
+
+@import 'banner';
+
+@import 'quolity';
+
+@import 'arrivals';
+
+@import 'bonne-mine';
+
+@import 'categories';
+
+@import 'books';
+
+
+.together {
+    padding: 37px 64px;
+
+    &-title {
+        width: 630px;
+        font-size: 43px;
+        line-height: 60px;
+        margin-bottom: 84px;
+    }
+
+    &-cards {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &-card {
+
+        &-image {
+            width: 60%;
+            display: block;
+            margin: auto;
+            margin-bottom: 68px;
+        }
+
+        &-number {
+            font-size: 36px;
+            line-height: 45px;
+            margin-bottom: 72px;
+        }
+
+        &-description {
+            font-size: 24px;
+            line-height: 30px;
+        }
+    }
+}
